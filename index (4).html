@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Clínica Dental Aurora · Sevilla</title>
+<meta name="description" content="Clínica Dental Aurora — odontología general, ortodoncia, implantes y estética dental en Sevilla. Pide tu cita." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<div class="hero-wrap">
+  <section class="hero">
+
+    <!-- Fondo decorativo -->
+    <div class="hero-bg">
+      <div class="blob blob-a"></div>
+      <div class="blob blob-b"></div>
+      <svg class="tooth-outline" viewBox="0 0 200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M100 10c-22 0-32 14-46 14C36 24 20 14 12 30c-9 18-2 40 4 58 5 16 6 34 12 56 5 18 12 40 26 40 13 0 14-30 20-48 3-9 8-14 26-14s23 5 26 14c6 18 7 48 20 48 14 0 21-22 26-40 6-22 7-40 12-56 6-18 13-40 4-58-8-16-24-6-42-6-14 0-24-14-46-14Z" stroke="currentColor" stroke-width="2.5"/>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <a href="#inicio" class="logo">Aurora<span>Dental</span></a>
+
+        <ul class="nav-links">
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#resenas">Reseñas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+
+        <a href="#contacto" class="btn-cta">
+          <span class="btn-cta-icon"><i data-lucide="calendar-check"></i></span>
+          Pedir cita
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+          <i data-lucide="menu"></i>
+        </button>
+      </nav>
+
+      <!-- Menú móvil -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#resenas">Reseñas</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#contacto" class="btn-cta btn-cta-mobile">Pedir cita</a>
+      </div>
+
+      <!-- Texto principal -->
+      <div class="hero-text">
+        <div class="badge reveal-in" style="--d:0s">
+          <i data-lucide="sparkles"></i>
+          <span>Cuidado dental de confianza en Sevilla</span>
+        </div>
+
+        <h1 class="reveal-in" style="--d:.1s">Sonrisas cuidadas,<br>una a una</h1>
+
+        <p class="reveal-in" style="--d:.25s">
+          Odontología general, ortodoncia e implantes con tecnología actual y trato cercano.
+          Cuidamos tu boca como si fuera la nuestra.
+        </p>
+
+        <div class="hero-buttons reveal-in" style="--d:.4s">
+          <a href="#contacto" class="btn-cta">
+            <span class="btn-cta-icon"><i data-lucide="calendar-check"></i></span>
+            Pedir cita
+          </a>
+          <a href="#servicios" class="btn-ghost">Ver servicios</a>
+        </div>
+      </div>
+
+      <!-- Tarjeta inferior izquierda -->
+      <div class="stat-card reveal-in" style="--d:.5s">
+        <div class="stat-number">
+          <span class="stat-value">12.400+</span>
+          <span class="stat-label">Pacientes atendidos</span>
+        </div>
+        <a href="https://instagram.com/clinicadentalaurora" target="_blank" rel="noopener" class="pill-btn">
+          <span class="pill-icon"><i data-lucide="instagram"></i></span>
+          Síguenos
+        </a>
+      </div>
+
+      <!-- Esquina inferior derecha -->
+      <div class="corner-card reveal-in" style="--d:.6s">
+        <div class="corner-mask corner-mask-top"><svg viewBox="0 0 56 56" fill="none"><path d="M56 56V0C56 30.9279 30.9279 56 0 56H56Z" fill="var(--bg)"/></svg></div>
+        <div class="corner-mask corner-mask-left"><svg viewBox="0 0 56 56" fill="none"><path d="M56 56H0C30.9279 56 56 30.9279 56 0V56Z" fill="var(--bg)"/></svg></div>
+        <div class="corner-icon"><i data-lucide="stethoscope"></i></div>
+        <div class="corner-text">
+          <p class="corner-title">Primera visita</p>
+          <a href="#contacto" class="corner-link">
+            <span>Revisión gratuita</span>
+            <i data-lucide="chevron-right"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <video class="hero-video-fallback" aria-hidden="true"></video>
+  </section>
+</div>
+
+<!-- ============ SOBRE NOSOTROS ============ -->
+<section class="section" id="nosotros">
+  <div class="container about-grid reveal-section">
+    <div class="about-visual">
+      <div class="about-shape"></div>
+      <div class="about-card-float">
+        <i data-lucide="shield-check"></i>
+        <div>
+          <strong>+18 años</strong>
+          <span>cuidando sonrisas en Sevilla</span>
+        </div>
+      </div>
+    </div>
+    <div class="about-copy">
+      <span class="eyebrow-plain">Sobre nosotros</span>
+      <h2>Una clínica pensada para que perder el miedo al dentista</h2>
+      <p>
+        En Clínica Dental Aurora combinamos tecnología de diagnóstico actual con un trato
+        pausado y humano. Nada de prisas ni de salas de espera eternas: cada paciente tiene
+        su tiempo y su plan de tratamiento explicado sin tecnicismos.
+      </p>
+      <p>
+        Nacimos en el barrio de Triana en 2007 como una consulta pequeña y hoy somos un equipo
+        de seis especialistas que sigue trabajando con la misma filosofía: explicar antes de
+        tratar, y tratar solo lo necesario.
+      </p>
+      <div class="about-points">
+        <div class="about-point">
+          <i data-lucide="microscope"></i>
+          <span>Diagnóstico digital por imagen 3D</span>
+        </div>
+        <div class="about-point">
+          <i data-lucide="badge-euro"></i>
+          <span>Presupuesto cerrado antes de empezar</span>
+        </div>
+        <div class="about-point">
+          <i data-lucide="calendar-clock"></i>
+          <span>Citas de urgencia el mismo día</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EQUIPO ============ -->
+<section class="section section-tint" id="equipo">
+  <div class="container reveal-section">
+    <span class="eyebrow-plain">Nuestro equipo</span>
+    <h2>Las personas detrás de cada tratamiento</h2>
+    <p class="section-lead">Cinco especialistas y un mismo criterio: cuidarte como a alguien de casa.</p>
+
+    <div class="team-grid">
+
+      <div class="team-card">
+        <div class="avatar" style="--av-a:#1E3A5F; --av-b:#3E6FA6;">MR</div>
+        <h3>Dra. Marta Reyes</h3>
+        <p class="team-role">Directora clínica · Odontología general</p>
+        <p class="team-bio">Más de 15 años de experiencia. Lleva los casos de revisión, empastes y salud bucodental general.</p>
+      </div>
+
+      <div class="team-card">
+        <div class="avatar" style="--av-a:#4FBFA4; --av-b:#7fd9c4;">JO</div>
+        <h3>Dr. Javier Ortega</h3>
+        <p class="team-role">Ortodoncista</p>
+        <p class="team-bio">Especialista en ortodoncia invisible y en niños. Explica cada fase del tratamiento con modelos 3D.</p>
+      </div>
+
+      <div class="team-card">
+        <div class="avatar" style="--av-a:#C97B63; --av-b:#e3a690;">LF</div>
+        <h3>Dra. Lucía Fernández</h3>
+        <p class="team-role">Endodoncista</p>
+        <p class="team-bio">Tratamientos de conducto sin dolor y sin sustos, con anestesia adaptada a cada paciente.</p>
+      </div>
+
+      <div class="team-card">
+        <div class="avatar" style="--av-a:#5B5F97; --av-b:#8a8ec2;">AI</div>
+        <h3>Dr. Álvaro Ibáñez</h3>
+        <p class="team-role">Implantólogo y cirujano oral</p>
+        <p class="team-bio">Implantes, extracciones complejas y cirugía de muelas del juicio con sedación consciente.</p>
+      </div>
+
+      <div class="team-card">
+        <div class="avatar" style="--av-a:#B08968; --av-b:#d3ad8b;">SM</div>
+        <h3>Sara Molina</h3>
+        <p class="team-role">Higienista dental</p>
+        <p class="team-bio">Limpiezas, aplicación de flúor y educación en higiene oral para toda la familia.</p>
+      </div>
+
+      <div class="team-card">
+        <div class="avatar" style="--av-a:#3C6E71; --av-b:#6ea6a9;">PC</div>
+        <h3>Paula Castaño</h3>
+        <p class="team-role">Recepción y atención al paciente</p>
+        <p class="team-bio">La primera cara que verás al llegar. Gestiona citas, seguros y financiación.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICIOS ============ -->
+<section class="section" id="servicios">
+  <div class="container reveal-section">
+    <span class="eyebrow-plain">Servicios</span>
+    <h2>Tratamientos, con precios claros desde el primer minuto</h2>
+    <p class="section-lead">Precios orientativos por tratamiento base; el presupuesto final se cierra tras la revisión.</p>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-icon"><i data-lucide="clipboard-list"></i></div>
+        <h3>Revisión y diagnóstico</h3>
+        <p>Exploración completa, radiografía si es necesaria y plan de tratamiento.</p>
+        <div class="service-price">Desde 30 €</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i data-lucide="sparkles"></i></div>
+        <h3>Limpieza dental (profilaxis)</h3>
+        <p>Eliminación de sarro y placa, pulido y aplicación de flúor.</p>
+        <div class="service-price">Desde 45 €</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i data-lucide="sun"></i></div>
+        <h3>Blanqueamiento dental</h3>
+        <p>Blanqueamiento en clínica con luz LED, resultados visibles en una sesión.</p>
+        <div class="service-price">Desde 150 €</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i data-lucide="hammer"></i></div>
+        <h3>Empaste de composite</h3>
+        <p>Reconstrucción estética del diente dañado por caries, color natural.</p>
+        <div class="service-price">Desde 60 €</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i data-lucide="activity"></i></div>
+        <h3>Endodoncia</h3>
+        <p>Tratamiento de conducto para salvar el diente sin dolor, por pieza.</p>
+        <div class="service-price">Desde 180 €</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i data-lucide="align-center"></i></div>
+        <h3>Ortodoncia invisible</h3>
+        <p>Alineadores transparentes a medida. Financiación disponible sin intereses.</p>
+        <div class="service-price">Desde 2.500 €</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i data-lucide="anchor"></i></div>
+        <h3>Implante dental</h3>
+        <p>Implante de titanio + corona, con estudio 3D previo incluido.</p>
+        <div class="service-price">Desde 900 €</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i data-lucide="scissors"></i></div>
+        <h3>Extracción simple</h3>
+        <p>Extracción de piezas dañadas o sin viabilidad, con anestesia local.</p>
+        <div class="service-price">Desde 50 €</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i data-lucide="baby"></i></div>
+        <h3>Odontopediatría</h3>
+        <p>Revisiones y tratamientos pensados para los más pequeños de la casa.</p>
+        <div class="service-price">Desde 25 €</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERÍA ============ -->
+<section class="section section-tint" id="galeria">
+  <div class="container reveal-section">
+    <span class="eyebrow-plain">Galería</span>
+    <h2>Así es nuestro espacio</h2>
+    <p class="section-lead">Un vistazo a la clínica, el equipo y el día a día en consulta.</p>
+
+    <div class="gallery-grid">
+      <div class="gallery-item gallery-tall">
+        <img src="https://picsum.photos/seed/aurora-reception/800/1000" alt="Recepción de la clínica" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://picsum.photos/seed/aurora-chair/800/600" alt="Sillón dental" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://picsum.photos/seed/aurora-tools/800/600" alt="Instrumental dental" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://picsum.photos/seed/aurora-waiting/800/600" alt="Sala de espera" loading="lazy">
+      </div>
+      <div class="gallery-item gallery-tall">
+        <img src="https://picsum.photos/seed/aurora-team/800/1000" alt="Equipo trabajando" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://picsum.photos/seed/aurora-smile/800/600" alt="Paciente sonriendo" loading="lazy">
+      </div>
+    </div>
+    <p class="gallery-note">* Imágenes de muestra — sustitúyelas por fotos reales de tu clínica antes de publicar.</p>
+  </div>
+</section>
+
+<!-- ============ RESEÑAS ============ -->
+<section class="section" id="resenas">
+  <div class="container reveal-section">
+    <span class="eyebrow-plain">Reseñas</span>
+    <h2>Lo que dicen quienes ya han pasado por consulta</h2>
+
+    <div class="reviews-grid">
+
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Desde que vengo aquí se me quitó el miedo al dentista. La Dra. Reyes explica todo antes de tocarte nada."</p>
+        <div class="review-author">Carmen L.</div>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Me hice la ortodoncia invisible con el Dr. Ortega y el resultado ha sido mejor de lo que esperaba. Muy recomendable."</p>
+        <div class="review-author">Rubén A.</div>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Tuve una urgencia un viernes por la tarde y me atendieron el mismo día. Un lujo tener una clínica así de cerca."</p>
+        <div class="review-author">Nuria P.</div>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">★★★★☆</div>
+        <p>"El implante quedó perfecto y el precio fue el que me habían presupuestado, sin sorpresas."</p>
+        <div class="review-author">Manuel S.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section class="section section-dark" id="contacto">
+  <div class="container reveal-section">
+    <span class="eyebrow-plain eyebrow-light">Contacto</span>
+    <h2 class="light-title">Reserva tu cita o pásate a conocernos</h2>
+
+    <div class="contact-grid">
+
+      <a href="tel:+34954123456" class="contact-card">
+        <div class="contact-icon"><i data-lucide="phone"></i></div>
+        <div>
+          <strong>Teléfono</strong>
+          <span>+34 954 123 456</span>
+        </div>
+      </a>
+
+      <a href="mailto:hola@clinicadentalaurora.es" class="contact-card">
+        <div class="contact-icon"><i data-lucide="mail"></i></div>
+        <div>
+          <strong>Email</strong>
+          <span>hola@clinicadentalaurora.es</span>
+        </div>
+      </a>
+
+      <a href="https://instagram.com/clinicadentalaurora" target="_blank" rel="noopener" class="contact-card">
+        <div class="contact-icon"><i data-lucide="instagram"></i></div>
+        <div>
+          <strong>Instagram</strong>
+          <span>@clinicadentalaurora</span>
+        </div>
+      </a>
+
+      <a href="https://www.google.com/maps?q=Calle+Sierpes+24+Sevilla" target="_blank" rel="noopener" class="contact-card">
+        <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+        <div>
+          <strong>Ubicación</strong>
+          <span>Calle Sierpes, 24 · Sevilla</span>
+        </div>
+      </a>
+
+      <div class="contact-card contact-card-static">
+        <div class="contact-icon"><i data-lucide="clock"></i></div>
+        <div>
+          <strong>Horario</strong>
+          <span>Lun–Vie 9:00–14:00 y 16:00–20:00</span>
+          <span>Sáb 10:00–13:00</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="map-embed">
+      <iframe
+        src="https://www.google.com/maps?q=Calle%20Sierpes%2024%20Sevilla&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Ubicación de Clínica Dental Aurora">
+      </iframe>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Clínica Dental Aurora. Todos los derechos reservados.</span>
+    <div class="footer-social">
+      <a href="https://instagram.com/clinicadentalaurora" target="_blank" rel="noopener"><i data-lucide="instagram"></i></a>
+      <a href="tel:+34954123456"><i data-lucide="phone"></i></a>
+      <a href="mailto:hola@clinicadentalaurora.es"><i data-lucide="mail"></i></a>
+    </div>
+  </footer>
+</section>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
